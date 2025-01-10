@@ -10,6 +10,12 @@ const alexAge = 25;
 const alexMembershipID = "GYM2024-12345";
 const isRunningOnTreadmill = true;
 console.log(alexAge, alexMembershipID, isRunningOnTreadmill);
+// ### 題目二：變數命名練習
+// - 瑜伽團課 - 300 元
+// - 重訓團課 - 500 元
+// - 重訓 1 對 1 課程 - 1500 元
+// 情境：Alex 這個月的運動預算有 3000 元
+// 請修改以下中文變數名稱，讓他符合變數語意
 const yogaGroupClassPrice = 300;
 const weightTrainingGroupClassPrice = 500;
 const weightTrainingOnePersonalClassPrice = 1500;
@@ -23,12 +29,15 @@ alexBudget -= yogaGroupClassPrice * 3;
 alexBudget -= weightTrainingGroupClassPrice * 1;
 alexBudget -= weightTrainingOnePersonalClassPrice * 1;
 console.log(`Alex 買完課程了，他一共剩下 ${alexBudget} 元`);
+// ### 題目四：線稿圖截圖，看圖宣告變數
+// 請參考資料夾內 q4.webp 圖片
+// 請依照你看到的內容來嘗試設計變數和值（至少 3 個）
 const program = {
-    name: "14堂組合包方案",
-    price: 2520,
-    classNum: 14,
-    classTime: 50,
-    discount: 0.9,
+  name: "14堂組合包方案",
+  price: 2520,
+  classNum: 14,
+  classTime: 50,
+  discount: 0.9,
 };
 // ### 題目五：布林值與變數定義，看是否有用對 const, let
 // 情境：Alex 在往健身房的路上，望向城市的風景，請描述她看到的一切，並宣告變數與賦予值
@@ -64,7 +73,9 @@ const groupClassPrice = 150;
 let machineUsePriceTotal = machineUsePrice * 3;
 let groupClassesTotal = groupClassPrice * 2;
 totalBill = machineUsePriceTotal + groupClassesTotal;
-console.log(`Anna 本週器械使用費共 ${machineUsePriceTotal} 元，團體課費用共 ${groupClassesTotal} 元，一共消費金額是 ${totalBill}元`);
+console.log(
+  `Anna 本週器械使用費共 ${machineUsePriceTotal} 元，團體課費用共 ${groupClassesTotal} 元，一共消費金額是 ${totalBill}元`
+);
 // ### 題目八：變數重新賦予值
 // 情境：請依照以下程式碼告知答案是多少，並在下方用註解方式寫上這五行程式碼做了什麼事
 // 以下程式碼請勿變更
